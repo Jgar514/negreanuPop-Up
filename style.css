@@ -28,6 +28,9 @@ html{
 .page-content h2{
     padding-top: 10%;
 }
+.page-content .title{
+    text-decoration: underline;
+}
 .page-content h3{
     padding-top: 10%;
 }
@@ -135,6 +138,12 @@ background-position: center center ;
     display: none;
 }
 @media (max-width: 560px) {
+    .page-content .title{
+        text-decoration: underline;
+    }
+    .page-content .scroll{
+        font-size: 20px;
+    }
     .popup-container .golfcopy {
         display: none;
     }
@@ -159,4 +168,5 @@ background-position: center center ;
     .popup-container{
         padding: 0;
     }
-    }
+}
+    
