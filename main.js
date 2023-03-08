@@ -9,13 +9,13 @@ let allowedToSkip = false;
 let popupTimer;
  
 
-const createPopupCookie = () => {
+/*const createPopupCookie = () => {
     let expiresDays = 30;
     let date= new Date();
     date.setTime(date.getTime() + expiresDays * 24 * 60 * 60 * 1000);
     let expires = "expires=" + date.toUTCString();
     document.cookie = `popupCookie=true; ${expires}; path=/;`
-}
+}*/
 
 //create a function to show the ad
 
